@@ -1,0 +1,7 @@
+timestamp,event_id,username,source_ip,event,analyst_note
+2026-08-10 09:04:17,4625,admin,185.220.101.44,Failed Login,First suspicious authentication failure
+2026-08-10 09:04:21,4625,admin,185.220.101.44,Failed Login,Second failure 4 seconds later
+2026-08-10 09:04:26,4625,admin,185.220.101.44,Failed Login,Third consecutive failure
+2026-08-10 09:04:31,4625,admin,185.220.101.44,Failed Login,Fourth consecutive failure
+2026-08-10 09:04:37,4625,admin,185.220.101.44,Failed Login,Fifth consecutive failure
+2026-08-10 09:04:44,4624,admin,185.220.101.44,Successful Login,Successful authentication following repeated failures
