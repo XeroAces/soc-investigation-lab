@@ -1,0 +1,10 @@
+timestamp,event_id,username,computer,event_type,details
+2026-08-10 08:14:22,4688,jbrown,WS-104,Process Creation,"chrome.exe started"
+2026-08-10 08:43:51,4688,jsmith,WS-107,Process Creation,"outlook.exe started"
+2026-08-10 09:08:14,4720,admin,SRV-01,User Account Created,"Account svc_backup was created"
+2026-08-10 09:08:42,4732,admin,SRV-01,Group Membership Changed,"svc_backup added to local Administrators group"
+2026-08-10 09:09:17,4688,admin,SRV-01,Process Creation,"cmd.exe started"
+2026-08-10 09:09:31,1102,admin,SRV-01,Audit Log Cleared,"Windows Security audit log was cleared"
+2026-08-10 09:22:18,4688,agarcia,WS-112,Process Creation,"excel.exe started"
+2026-08-10 10:17:43,4688,jbrown,WS-104,Process Creation,"winword.exe started"
+2026-08-10 11:04:11,4688,jsmith,WS-107,Process Creation,"chrome.exe started"
