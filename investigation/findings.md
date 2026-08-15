@@ -21,6 +21,13 @@ VirusTotal analysis of `185.220.101.44` showed:
 - Network: `185.220.101.0/24`
 - ASN: `AS60729`
 - Organization: Stiftung Erneuerbare Freiheit
+
+## MITRE ATT&CK Mapping
+
+- Technique: Brute Force
+- Sub-technique: Password Guessing
+- Technique ID: T1110.001
+- Evidence: Five failed authentication attempts against the `admin` account were followed by a successful authentication from the same external IP address.
 - Country associated with the network: Germany (DE)
 
 ## Current Assessment
