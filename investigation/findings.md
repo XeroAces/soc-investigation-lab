@@ -51,6 +51,22 @@ Following the suspicious successful login to the `admin` account, several system
 
 The timing and sequence of these commands following the suspicious authentication indicate possible system discovery activity.
 
+
+
+## Persistence and Defense Evasion
+
+Further analysis identified suspicious activity following the system discovery commands.
+
+At 09:08:14, the `admin` account created a new local account named `svc_backup`. At 09:08:42, `svc_backup` was added to the local Administrators group, granting the account elevated privileges.
+
+The creation of a new privileged account shortly after the suspicious `admin` authentication may indicate an attempt to establish persistence on `SRV-01`.
+
+At 09:09:31, the Windows Security audit log was cleared. Given the preceding suspicious activity, this may indicate an attempt to remove evidence and hinder investigation.
+
+### MITRE ATT&CK Mapping
+
+- T1136.001 - Create Account: Local Account
+- T1070.001 - Clear Windows Event Logs
 ## Additional MITRE ATT&CK Mapping
 
 - T1033 - System Owner/User Discovery
