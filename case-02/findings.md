@@ -3,10 +3,10 @@
 
 ## Summary
 
-Explain:
-- What type of attack occurred?
-- Which account appears to have been compromised?
-- What happened after access?
+Analysis of authentication logs identified activity consistent with a password-spraying attack originating from the external IP address `45.83.64.17`. The source attempted authentication against multiple user accounts before successfully accessing the `helpdesk` account on `WS-120`.
+
+Following the successful authentication, the `helpdesk` account executed several commands used for system, account, group, and file/directory discovery. The activity indicates a likely account compromise requiring containment and further investigation.
+
 
 
 ## Evidence
